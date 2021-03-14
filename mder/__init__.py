@@ -35,6 +35,7 @@ please comfirm the temporary folder included the fragment video you need""")
             self.has_download_name = os.listdir(self.temp_file_path+'/TS')
         else:
             os.mkdir(self.temp_file_path+'/TS')
+            self.has_download_name = []
         with open(self.m3u8_file_path,'r') as m3u8:
             temp_url = [m3u8_lines.replace('\n','') for m3u8_lines in m3u8.readlines() if m3u8_lines.startswith('http')]
         self.total = len(temp_url)
