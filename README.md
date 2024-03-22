@@ -1,3 +1,5 @@
+This module dose not be maintained here, see [Kkit](https://github.com/ErwinLiYH/Kylis_Kit), [doc](https://erwinliyh.github.io/Kylis_Kit/Kkit/mder.html)
+
 # M3u8 Downloader
 A multithread m3u8 download module and the number of threads can decide by yourself. using how many threads is decide by your network and your device.
 
